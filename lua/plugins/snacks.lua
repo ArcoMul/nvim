@@ -12,7 +12,7 @@ return {
         -- Show hidden files in file picker
         files = { hidden = true },
         -- Show hidden files in explorer
-        explorer = { hidden = true },
+        explorer = { hidden = true, git_untracked = false },
       },
     },
   },
