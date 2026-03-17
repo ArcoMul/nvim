@@ -3,3 +3,6 @@
 -- Add any additional options here
 -- -- If no prettier config file is found, the formatter will not be used
 vim.g.lazyvim_prettier_needs_config = true
+
+local opt = vim.opt
+opt.relativenumber = false -- Relative line numbers
